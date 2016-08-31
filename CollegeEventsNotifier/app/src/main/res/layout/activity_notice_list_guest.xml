@@ -1,0 +1,53 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.firstone.collegeeventsnotifier.NoticeListGuest">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageIcon"
+        android:src="@drawable/main2"
+
+        android:layout_alignBottom="@+id/txtOutput"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="College Events Notifier"
+        android:textSize="32sp"
+        android:id="@+id/txtOutput"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageIcon" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/list"
+        android:layout_below="@+id/imageIcon"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        />" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:text="New Text"-->
+
+    <!--android:id="@+id/EventsList"-->
+    <!--android:layout_below="@+id/imageIcon"-->
+    <!--android:layout_alignParentStart="true" />-->
+
+</RelativeLayout>
